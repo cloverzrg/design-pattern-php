@@ -12,7 +12,7 @@ abstract class FoxconnFactory
     abstract public function createButton();
 }
 
-//小米生产线
+//苹果生产线
 class IphoneFactory extends FoxconnFactory
 {
     public function createButton()
@@ -23,7 +23,7 @@ class IphoneFactory extends FoxconnFactory
 
 }
 
-//苹果生产线
+//小米生产线
 class XiaomiFactory extends FoxconnFactory
 {
     public function createButton()
