@@ -52,7 +52,7 @@ class XiaomiButton extends Button
     }
 }
 
-$phone_type = 'Xiaomi';
-$factory_name = $type.'Factory';
+$phone_brand = 'Xiaomi';
+$factory_name = $phone_brand.'Factory';
 $factory = new $factory_name;
 $button = $factory->createButton();
